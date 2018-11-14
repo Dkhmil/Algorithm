@@ -13,7 +13,6 @@ public class RestoreArray {
         String entered = a.nextLine();
         return entered;
     }
-
     private static int getLength() {
         System.out.println("Enter array length: ");
         int length = parseInt(getLine());
@@ -22,7 +21,6 @@ public class RestoreArray {
         }
         return length;
     }
-
     private static int[] enterArray() {
         System.out.println("Enter Array:");
         int[] inputArray = new int[arrayLength];
@@ -33,7 +31,6 @@ public class RestoreArray {
         }
         return inputArray;
     }
-
     private static boolean isMonotonic() {
         boolean monotonic = true;
         if (arr.length <= 2) {
